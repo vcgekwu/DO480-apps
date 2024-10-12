@@ -1,0 +1,6 @@
+kind: Kustomization
+resources:
+- deployment.yaml
+- deployment-frontend.yaml
+- service.yaml
+- service-frontend.yaml

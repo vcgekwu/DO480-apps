@@ -1,0 +1,10 @@
+kind: Kustomization
+
+bases:
+- ../../base
+
+resources:
+- devpvc.yaml
+- devroute.yaml
+
+namePrefix: dev-
